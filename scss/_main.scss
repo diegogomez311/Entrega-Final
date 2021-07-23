@@ -1,0 +1,583 @@
+
+*{ 
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    background-color: #242424;
+    background-image: url(../media/bg-body.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Rubik', sans-serif;
+    color: $blanco;   
+    h1 {
+        font-family: $teko;
+        color: $amarillo;
+        font-size: 54px;
+        line-height: 48px;
+    }      
+    h2 {
+        font-family: $teko;
+        font-weight: $teko-medium;
+        font-size: 60px;
+        color: $amarillo;      
+        text-transform: uppercase;
+        letter-spacing: -1px;
+    }      
+    h3 {
+        font-family: $teko;
+        font-weight: $teko-medium;
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: -.5px;
+    }      
+    h4 {
+        font-size: 18px;
+        line-height: 28px;
+        text-transform: uppercase;
+        letter-spacing: -.2px;
+    }          
+    h5 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    p{
+        font-family: $rubik-medium;
+        color: $gris-light;
+    }
+}   
+
+#menu{
+    .active{
+        color: $amarillo;
+    }
+    .nav-item{
+        font-family: $teko;
+        font-size: 22px;
+        font-weight: 400;
+    }
+}
+  
+#slider{
+    padding-top:62px;
+    .carousel-control-next, .carousel-control-prev {   
+        width: 4%;   
+    }
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+#servicios{     
+    background-color:$gris-oscuro;
+    background-image: url(../media/patternServicios.png);    
+    .boton{
+    background-color: $gris-oscuro;
+    width: 100%;
+    height: 180px;
+    border-radius: $border-md;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;      
+    }
+    .text-btn{
+        font-family: $teko;
+        color: $amarillo;
+        font-size: 26px;
+        line-height: 80%;
+    }
+   
+    svg {
+        width: 70px;
+        height: 70px;
+        fill: $amarillo;
+    }     
+    .boton:hover{
+        background-color: $amarillo;        
+        svg{
+            fill:$gris-oscuro;
+        }
+        p {
+            color:$gris-oscuro
+        }        
+    }       
+}
+
+#emergencias{
+    background-color: $amarillo;   
+    .card-body{       
+        border:0cm;
+    }
+    .sos{
+        width:100%;
+        height: 50px;
+        display: flex;     
+    }
+    .row{
+        align-items: center;
+    }  
+      
+}
+
+@media all and (max-width: 768px) {
+    h1{
+        text-align: center;
+    }
+   .wa{
+       display: none;
+   }
+   .sos{
+       margin-top: 15px;
+       p {
+           font-size: 26px
+       }
+       img{
+           width: 60px;
+           margin:0px;
+       }    
+   }
+}
+
+
+ 
+#novedades{
+    background-color: $amarillo;       
+    margin-top: 20px;
+    border-radius: $border-md;    
+}
+
+#destacados{
+    background-color: $blanco;
+    margin-top: 20px;
+    border-radius: $border-md;  
+    .card{
+        width: 100%;        
+        border-radius: $border-md;
+        border:none;            
+    }   
+    .card img{
+        border-radius: $border-md;
+        transition: 1s;
+    }
+    img{  
+        filter: gray; 
+        -webkit-filter: grayscale(1);        
+    }
+    img:hover{
+        filter: none;
+        -webkit-filter: grayscale(0);        
+    }
+    svg{      
+       fill: $amarillo;
+    }   
+}
+#destacadosServiciosMenu{
+    margin-top: 72px;
+    background-color: $gris-oscuro;
+    border-radius: $border-md;
+    .cardServicios{
+        background-color: $gris-claro;
+        border-radius: $border-md;
+        margin: 16px 0px;
+        position: relative;
+        display: flex;
+        height: 180px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardServiciosActive{
+        background-color: $amarillo;
+        border-radius: $border-md;
+        margin: 16px 0px;
+        position: relative;
+        display: flex;
+        height: 180px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        svg{
+            fill: $gris-oscuro;
+        }
+        h3{
+            color: $gris-oscuro;
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+    svg{
+        fill: $amarillo;
+    }
+    h3{
+        font-family: $teko;
+        font-size: 26px;
+        color: $amarillo;
+        line-height: 24px;
+    }
+    .ornamento{
+        position: absolute;        
+        bottom: -2px;       
+    }
+    .cardServicios {
+        transition: 1s;
+    }
+    .btn:hover{
+        background-color: $amarillo;
+        svg{
+            fill: $gris-oscuro;
+        }
+        h3{
+            color: $gris-oscuro;
+        }       
+    }
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding: 0px;
+    }
+}
+
+#destacadosServicios{
+    background-color: $gris-oscuro;
+    margin-top: 10px;   
+    border-radius: $border-md;
+    padding: 15px;
+     
+    .cardServicios{
+        background-color: $gris-claro;
+        border-radius: $border-md;
+        position: relative;
+        display: flex;
+        height: 180px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    .ornamento{
+        position: absolute;        
+        bottom: -2px;       
+    }
+    a{
+        text-decoration: none;
+    }
+    svg{
+        fill: $amarillo;
+    }
+    h3{
+        font-family: $teko;
+        font-size: 26px;
+        color: $amarillo;
+        line-height: 24px;
+    }
+    .cardServicios {
+        transition: 1s;
+    }
+    .btn:hover{
+        background-color: $amarillo;
+        svg{
+            fill: $gris-oscuro;
+        }
+        h3{
+            color: $gris-oscuro;
+        }       
+    }
+    .card{
+        border: none;
+    }
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding: 0px;
+    }
+    .row {       
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+#sitad{
+    background-color: $gris-oscuro;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: $border-md;
+    .card{
+        width: 100%;
+        border-radius: $border-md;
+        border:none;
+    }  
+}
+
+#trabajos{
+    background-color: $blanco;
+    margin-top: 10px;
+    border-radius: $border-md;
+    .card{
+        width: 100%;
+        border-radius: $border-md;
+        border:none;
+    }
+    .card img{
+        border-radius: $border-md;
+    }    
+    .cerrar{        
+        text-align: end;
+        padding: 10px;       
+    }
+  
+}
+
+.btn-link{
+    color: $amarillo;
+}
+
+.modal-footer{
+    border-top: none;  
+}
+
+.btn-link:hover {
+    color: $blanco;
+    text-decoration: none;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+#footer{
+    background-color: #1C1E23;    
+    background-image: url(/media/footer-bg.png);    
+    .social a{
+        color: $amarillo;    
+        margin:0 5px;
+        font-size: 16pt;    
+        transition: 0.2s;
+    }  
+    .social a i{
+        transition: 0.3s;        
+    }    
+    .social a:hover{
+        color: $gris-claro;
+    }  
+ 
+    .tel i {
+        color: $gris-oscuro;
+        font-size: 20px;
+    }
+    .asistencia{
+        font-family: $teko;
+        font-weight: $teko-medium;
+        color: $amarillo;
+        font-size: 20px;
+        line-height: 1.1;
+    }
+    .asistenciaTel{
+        font-family: $teko;
+        font-weight: $teko-medium;
+        color: $amarillo;
+        font-size: 30px;
+        line-height: 1;
+    }
+    .fa-phone{
+        background-color: $amarillo;
+        color: $gris-oscuro;
+        width: 30px;
+        height: 30px;
+        border-radius: $border-lg;
+        padding: 5px;     
+    }
+    .table td,.table th{
+        border-top: none;
+    }
+    
+}
+#copy{
+    background-color:$amarillo;
+    h5{
+        color: $gris-light;
+    }  
+}
+.wa a img {
+    width: 90px;
+    position: fixed;
+    bottom: 200px;
+    right: 0px;
+}
+
+
+
+/*TEXTOS EN RUBIK*/
+@mixin rubik ($size, $weight, $color){
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;    
+}
+.titulo-rubik-negro {
+    @include rubik(18px,$rubik-bold,$negro)
+}
+.subtitulo-rubik-negro {
+    @include rubik(16px,$rubik-medium,$negro)
+}
+.parrafo-rubik-negro {
+    @include rubik(16px,$rubik-medium,$negro)
+}
+.parrafo-rubik-blanco {
+    @include rubik(16px,$rubik-medium,$blanco)
+}
+.parrafo-rubik-amarillo {
+    @include rubik(16px,$rubik-medium,$amarillo)
+}
+.parrafo-rubik-footer{
+    @include rubik(14px,$rubik-light ,$gris-10 )
+}
+
+/*TEXTOS EN TEKO*/
+@mixin teko ($font, $weight, $size, $color){
+    font-family: $font;    
+    font-weight: $weight;
+    font-size: $size;
+    color: $color;    
+}
+.titulo-teko-negro {
+    @include teko ($teko,$teko-medium,36px,$negro)
+}
+.titulo-teko-amarillo {
+    @include teko ($teko,$teko-medium,36px,$amarillo)
+}
+.titulo-teko-footer {
+    @include teko ($teko,$teko-medium,20px,$amarillo)
+}
+.titulo-teko-blanco {
+    @include teko ($teko,$teko-medium,36px,$blanco)
+}
+.titulo-teko-amarillo--xl{
+    @extend .titulo-teko-amarillo;
+    font-size: 48px    
+}
+
+.titulo-teko-negro--xl{
+    @extend .titulo-teko-negro;
+    font-size: 48px
+}
+.titulo-teko-negro--lg{
+    @extend .titulo-teko-negro;
+    font-size: 32px;   
+}
+/*BACKGROUND-COLOR*/
+@mixin amarillo ($color){    
+    background-color: $color;    
+}
+.bg-amarillo {
+    @include amarillo ($amarillo)
+}
+@mixin gris ($color){    
+    background-color: $color;    
+}
+.bg-gris {
+    @include gris ($gris-oscuro)
+}
+@mixin negro ($color){    
+    background-color: $color;    
+}
+
+@mixin grisClaro ($color){    
+    background-color: $color;    
+}
+.bg-claro {
+    @include grisClaro ($gris-claro)
+}
+
+.card {
+    @include gris ($blanco)
+}
+.card-negro{
+    @extend .card;
+    background-color: $negro;
+}
+.card-gris{
+    @extend .card;
+    background-color: $gris-oscuro;
+}
+
+/*BORDES*/
+@mixin borde ($borde){    
+    border-radius: $borde;  
+}
+.brd-m {
+    @include borde ($border-md)
+}
+.brd-m--bottom{
+    @extend .brd-m;
+    border-bottom: 15px;
+}
+
+.text-size-{
+    font-family:$teko;  
+}
+
+/*BOUCLES*/
+@for $i from 2 through 10{
+    .text-size-#{$i} {font-size: 4px*$i;}
+}
+
+@for $i from 25 through 35{
+    .lineH#{$i} {line-height: 1px*$i;}
+}
+
+/*EACH-SIZE*/
+$sizes: (
+	"small": 12px,
+	"medium": 14px,
+	"regular": 16px,
+	"large":20px
+);
+@each $k, $v in $sizes{
+	.font-size-#{$k}{
+		font-size: $v;
+	}
+}
+/*MAPS WEIGHT*/
+$weight: (
+	"light":300,
+	"medium": 400,
+	"bold": 700	
+);
+@each $k, $v in $weight{
+	.font-size-#{$k}{
+		font-weight: $v;
+	}
+}
+/*MAPS BORDER-RADIUS*/
+$border: (
+    "small": 5px, 
+    "medium": 10px,
+    "large": 15px
+);
+@each $k, $v in $border{
+	.border-#{$k}{
+		border-radius: $v;
+	}
+}
+/*BOUCLE MARGIN-TOP*/
+$margin: 1px;
+@for $i from 1 to 6 {
+    .mtop-#{$i}{
+        margin-top: $margin *$i;
+    }
+}
+/*BOUCLE MARGIN-BOUTTOM*/
+$margin: 1px;
+@for $i from 1 to 6 {
+    .mtop-#{$i}{
+        margin-bottom: $margin *$i;
+    }
+}
+    
+    
