@@ -166,6 +166,15 @@ dl, ol, ul {
     width: 60px;
     margin: 0px;
   }
+  #novedades h1 {
+    font-size: 22px;
+  }
+  #destacadosServicios h1 {
+    font-size: 30px;
+  }
+  #trabajos h1 {
+    font-size: 30px;
+  }
 }
 
 #novedades {
