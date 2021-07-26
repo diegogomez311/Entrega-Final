@@ -452,7 +452,7 @@ dl, ol, ul {
 
 #footer {
   background-color: #1C1E23;
-  background-image: url(/media/footer-bg.png);
+  background-image: url(../media/footer-bg.png);
 }
 
 #footer .social a {
@@ -514,7 +514,7 @@ dl, ol, ul {
   color: #797a7a;
 }
 
-.wa a img {
+.wa a svg {
   width: 90px;
   position: fixed;
   bottom: 200px;
