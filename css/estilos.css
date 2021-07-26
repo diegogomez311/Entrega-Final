@@ -281,7 +281,7 @@ dl, ol, ul {
 
 #footer {
   background-color: #1C1E23;
-  background-image: url(/media/footer-bg.png); }
+  background-image: url(../media/footer-bg.png); }
   #footer .social a {
     color: #F9B200;
     margin: 0 5px;
