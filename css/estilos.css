@@ -214,7 +214,8 @@ dl, ol, ul {
     position: absolute;
     bottom: -2px; }
   #destacadosServicios a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #F9B200; }
   #destacadosServicios svg {
     fill: #F9B200; }
   #destacadosServicios h3 {
