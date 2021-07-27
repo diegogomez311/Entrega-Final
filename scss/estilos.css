@@ -391,11 +391,11 @@ dl, ol, ul {
   text-decoration: none;
 }
 
-.card, .card-negro, .card-gris {
+#destacadosServicios .card, #destacadosServicios .card-negro, #destacadosServicios .card-gris {
   border: none;
 }
 
-.card-body {
+#destacadosServicios .card-body {
   -ms-flex: 1 1 auto;
   -webkit-box-flex: 1;
           flex: 1 1 auto;

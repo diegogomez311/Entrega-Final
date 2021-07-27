@@ -237,15 +237,13 @@ dl, ol, ul {
     #destacadosServicios .btn:hover a {
       color: #F9B200;
       text-decoration: none; }
-
-.card, .card-negro, .card-gris {
-  border: none; }
-
-.card-body {
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  min-height: 1px;
-  padding: 0px; }
+  #destacadosServicios .card, #destacadosServicios .card-negro, #destacadosServicios .card-gris {
+    border: none; }
+  #destacadosServicios .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0px; }
 
 .row {
   margin-right: 0px;
