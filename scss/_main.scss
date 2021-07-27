@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;    
 }
-
 body {
     background-color: #242424;
     background-image: url(../media/bg-body.jpg);
@@ -47,8 +46,7 @@ body {
         font-family: $rubik-medium;
         color: $gris-light;
     }
-}   
-
+} 
 #menu{
     .active{
         color: $amarillo;
@@ -58,8 +56,7 @@ body {
         font-size: 22px;
         font-weight: 400;
     }
-}
-  
+}  
 #slider{
     padding-top:62px;
     .carousel-control-next, .carousel-control-prev {   
@@ -70,7 +67,6 @@ dl, ol, ul {
     margin-top: 0;
     margin-bottom: 0px;
 }
-
 #servicios{     
     background-color:$gris-oscuro;
     background-image: url(../media/patternServicios.png);    
@@ -105,7 +101,6 @@ dl, ol, ul {
         }        
     }       
 }
-
 #emergencias{
     background-color: $amarillo;   
     .card-body{       
@@ -118,17 +113,15 @@ dl, ol, ul {
     }
     .row{
         align-items: center;
-    }  
-      
+    }       
 }
-
 @media all and (max-width: 768px) {
     h1{
         text-align: center;
     }
    .wa{
        display: none;
-   }
+    }
    .sos{
        margin-top: 15px;
        p {
@@ -139,29 +132,27 @@ dl, ol, ul {
            margin:0px;
         }    
     }
-        #novedades{
-            h1 {
+    #novedades{
+        h1 {
             font-size: 22px;
             }
         }
-        #destacadosServicios{
-            h1 {
+    #destacadosServicios{
+        h1 {
              font-size: 30px;
             }
         }
         #trabajos{
-            h1 {
+        h1 {
             font-size: 30px;
         }    
     }
-}
- 
+} 
 #novedades{
     background-color: $amarillo;       
     margin-top: 20px;
     border-radius: $border-md;    
 }
-
 #destacados{
     background-color: $blanco;
     margin-top: 20px;
@@ -254,7 +245,6 @@ dl, ol, ul {
         padding: 0px;
     }
 }
-
 #destacadosServicios{
     background-color: $gris-oscuro;
     margin-top: 10px;   
@@ -313,7 +303,6 @@ dl, ol, ul {
         margin-left: 0px;
     }
 }
-
 #sitad{
     background-color: $gris-oscuro;
     padding: 10px;
@@ -325,7 +314,6 @@ dl, ol, ul {
         border:none;
     }  
 }
-
 #trabajos{
     background-color: $blanco;
     margin-top: 10px;
@@ -341,8 +329,7 @@ dl, ol, ul {
     .cerrar{        
         text-align: end;
         padding: 10px;       
-    }
-  
+    }  
 }
 .btn-link{
     color: $amarillo;
@@ -372,8 +359,7 @@ dl, ol, ul {
     }    
     .social a:hover{
         color: $gris-claro;
-    }  
- 
+    }   
     .tel i {
         color: $gris-oscuro;
         font-size: 20px;
@@ -402,8 +388,7 @@ dl, ol, ul {
     }
     .table td,.table th{
         border-top: none;
-    }
-    
+    }    
 }
 #copy{
     background-color:$amarillo;
