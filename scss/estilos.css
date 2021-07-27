@@ -56,6 +56,11 @@ body p {
   color: #797a7a;
 }
 
+body a {
+  color: #F9B200;
+  text-decoration: none;
+}
+
 #menu .active {
   color: #F9B200;
 }

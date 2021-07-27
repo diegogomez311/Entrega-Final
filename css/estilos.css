@@ -41,6 +41,9 @@ body {
   body p {
     font-family: 400;
     color: #797a7a; }
+  body a {
+    color: #F9B200;
+    text-decoration: none; }
 
 #menu .active {
   color: #F9B200; }

@@ -46,6 +46,10 @@ body {
         font-family: $rubik-medium;
         color: $gris-light;
     }
+    a {
+        color: $amarillo;
+        text-decoration: none;       
+    }
 } 
 #menu{
     .active{
