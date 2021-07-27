@@ -306,13 +306,14 @@ dl, ol, ul {
         flex: 1 1 auto;
         min-height: 1px;
         padding: 0px;
-    }      
+    }
+    .row {       
+        margin-right: 0px;
+        margin-left: 0px;
+    }   
 }
 
-.row {       
-    margin-right: 0px;
-    margin-left: 0px;
-}
+
 #sitad{
     background-color: $gris-oscuro;
     padding: 10px;
