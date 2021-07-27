@@ -272,6 +272,7 @@ dl, ol, ul {
         text-decoration: none;
         color: $amarillo;
     }
+    
     svg{
         fill: $amarillo;
     }
@@ -291,21 +292,25 @@ dl, ol, ul {
         }
         h3{
             color: $gris-oscuro;
-        }       
-    }
-    .card{
-        border: none;
-    }
-    .card-body {
-        -ms-flex: 1 1 auto;
-        flex: 1 1 auto;
-        min-height: 1px;
-        padding: 0px;
-    }
-    .row {       
-        margin-right: 0px;
-        margin-left: 0px;
-    }
+        }
+         a {
+        color: $amarillo;
+        text-decoration: none;       
+        }
+    }       
+}
+.card{
+    border: none;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0px;
+}
+.row {       
+    margin-right: 0px;
+    margin-left: 0px;
 }
 #sitad{
     background-color: $gris-oscuro;

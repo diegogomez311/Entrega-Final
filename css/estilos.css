@@ -234,16 +234,22 @@ dl, ol, ul {
       fill: #1C1E23; }
     #destacadosServicios .btn:hover h3 {
       color: #1C1E23; }
-  #destacadosServicios .card, #destacadosServicios .card-negro, #destacadosServicios .card-gris {
-    border: none; }
-  #destacadosServicios .card-body {
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    min-height: 1px;
-    padding: 0px; }
-  #destacadosServicios .row {
-    margin-right: 0px;
-    margin-left: 0px; }
+    #destacadosServicios .btn:hover a {
+      color: #F9B200;
+      text-decoration: none; }
+
+.card, .card-negro, .card-gris {
+  border: none; }
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 0px; }
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px; }
 
 #sitad {
   background-color: #1C1E23;

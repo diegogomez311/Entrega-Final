@@ -386,11 +386,16 @@ dl, ol, ul {
   color: #1C1E23;
 }
 
-#destacadosServicios .card, #destacadosServicios .card-negro, #destacadosServicios .card-gris {
+#destacadosServicios .btn:hover a {
+  color: #F9B200;
+  text-decoration: none;
+}
+
+.card, .card-negro, .card-gris {
   border: none;
 }
 
-#destacadosServicios .card-body {
+.card-body {
   -ms-flex: 1 1 auto;
   -webkit-box-flex: 1;
           flex: 1 1 auto;
@@ -398,7 +403,7 @@ dl, ol, ul {
   padding: 0px;
 }
 
-#destacadosServicios .row {
+.row {
   margin-right: 0px;
   margin-left: 0px;
 }
